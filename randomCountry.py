@@ -16,7 +16,7 @@ while(count < 3):
   length = len(ran)
   print("Country length is: ", length)
   input1 = input("\nPlease enter a country: ")
-  smallRan = ran.lower()
+  smallRan = ran.lower() #convert ran to lowercase
   
   if(input1 == "exit"):
       print("Exiting now...")
